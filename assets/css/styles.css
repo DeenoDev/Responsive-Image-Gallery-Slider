@@ -56,3 +56,9 @@ img {
   margin-right: auto;
   overflow: hidden;
 }
+
+.gallery__img, 
+.gallery__card::after,
+.gallery__data{
+  position: absolute;
+}
