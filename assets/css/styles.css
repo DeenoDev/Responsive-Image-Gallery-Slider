@@ -40,3 +40,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* -----------------GALLERY----------------- */
+.gallery{
+  height: 100vh;
+  display: grid;
+}
+
+.gallery__card{
+  position:relative;
+  width: 208px ;
+  height: 268px;
+  border-radius: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
